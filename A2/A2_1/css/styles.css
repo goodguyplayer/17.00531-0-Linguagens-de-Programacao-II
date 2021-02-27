@@ -1,0 +1,49 @@
+/* Ctrl ; also works here, neat */
+
+title {
+    color: red;
+    text-align: center;
+
+}
+
+h1 {
+    color: yellowgreen  ;
+}
+
+p {
+    color: blueviolet;
+    border: solid 1px black;
+    text-align: left;
+}
+
+
+#secondp {
+    color: purple;
+    border: solid 1px black;
+    text-align: right;
+}
+
+.curso, .novo-curso, #contato{
+    background-color: aliceblue;
+}
+
+.novo-curso{
+    color: red;
+}
+
+article p {
+    padding: 12px;
+}
+
+#principal p.promocao{
+    text-align: center;
+}
+
+body #principal article section p.coordenadores{
+    text-align: center;
+}
+
+article > p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
